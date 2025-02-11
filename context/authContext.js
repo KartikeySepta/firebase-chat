@@ -14,7 +14,7 @@ const AuthContextProvider = ({children}) => {
     useEffect(() => {
         //onAuthStateChanged
         setTimeout(()=>{
-            setIsAuthenticated(true);
+            setIsAuthenticated(false);
         },1000);
     },[]);
 
