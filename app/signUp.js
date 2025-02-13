@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Feather, Octicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { Alert } from 'react-native';
-import Loading from '../components/loading';
+// import Loading from '../components/loading';
 import CustomKeyboardView from '../components/CustomKeyboardView';
 
 

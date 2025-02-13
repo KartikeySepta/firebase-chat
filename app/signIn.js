@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Octicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { Alert } from 'react-native';
-import Loading from '../components/loading';
+import Loading from '../components/Loading';
 
 
 export default function SignIn() {
