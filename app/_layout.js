@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native'
-import React, { useEffect ,useState} from 'react'
+import React, { useEffect } from 'react'
 import { Slot, useRouter, useSegments } from "expo-router";
 import AuthContextProvider, { useAuth } from '../context/authContext';
 import "../global.css";
@@ -30,5 +30,6 @@ export default function RootLayout() {
         <AuthContextProvider>
             <MainLayout/>
         </AuthContextProvider>
+
     )
 }
